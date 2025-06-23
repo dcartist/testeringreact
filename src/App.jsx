@@ -15,7 +15,6 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route path="/page1" element={<Page1 />} />
@@ -23,7 +22,6 @@ function App() {
         <Route path="/page3" element={<Page3 />} />
         </Route>
       </Routes>
-    </BrowserRouter>
     </>
   )
 }
